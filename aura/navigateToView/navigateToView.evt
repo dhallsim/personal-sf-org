@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="Navigate to the specified view">
+    <aura:attribute name="view" type="String" required="true"/>
+    <aura:attribute name="params" type="Object"/>
+</aura:event>

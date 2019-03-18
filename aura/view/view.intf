@@ -1,0 +1,4 @@
+<aura:interface description="View Interface">
+    <aura:registerEvent name="navigateEvent" type="c:navigateToView"/>
+	<aura:attribute name="message" type="String"/>
+</aura:interface>
