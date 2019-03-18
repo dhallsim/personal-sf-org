@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:attribute name="cars" type="List"/>
+    
+    <aura:iteration items="{!v.cars}" var="car">
+    	<p>{!car.Name}</p>
+    </aura:iteration>
+</aura:component>
